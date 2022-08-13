@@ -1,0 +1,145 @@
+@media (max-width: 1300px) {
+  .brands-name{
+    letter-spacing: 4px;
+    bottom: 230px;
+    left: 10%;
+    font-size: 25px;
+    position: absolute;
+  }
+
+  .brands-names{
+    letter-spacing: 4px;
+    bottom: 240px;
+    left: 70%;
+    top: 32%;
+    font-size: 45px;
+    position: absolute;
+  }
+  .big-text{
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 1200px) {
+   .brands-name {
+       font-size: 25px;
+       top: 24%;
+   }
+   .brands-names{
+    top: 32%;
+    font-size: 44px;
+   }
+   .big-text{
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 1104px){
+   .brands-names{
+    top: 26%;
+    font-size: 40px;
+   }
+}
+
+
+@media  (max-width: 992.5px)  {
+   .brands-name {
+      font-size: 18px;
+      top: 21%;
+   }
+
+    .brands-names{
+      top: 24%;
+      left: 65%;
+      font-size: 39px;
+    }
+    .why{
+      top: 46%;
+    }
+   .big-text{
+    font-size: 35px;
+  }
+}
+
+@media(max-width: 767px){
+   .brands-name {
+      font-size: 17px;
+      top: 16%;
+   }
+   .why{
+    top: 40%;
+   }
+  .brands-names{
+      top: 31%;
+      font-size: 32px;
+   }
+
+   .big-text{
+    font-size: 35px;
+  }
+}
+
+ @media(max-width: 610px){
+  .brands-names{
+    font-size: 16px;
+    top: 14%;
+  }
+   .brands-names{
+      top: 36%;
+      font-size: 23px;
+   }
+  .big-text{
+    text-align: center;
+    font-size: 34px;
+  }
+}
+
+@media(max-width:  574px){
+  .brands-names{
+      top: 30%;
+      font-size: 23px;
+   }
+   .why{
+     top: 36%;
+     font-size: 17px;
+   }
+}
+
+ @media(max-width: 492px){
+  .brands-names{
+    top: 24%;
+    font-size: 22px;
+    left: 58%;
+  }
+}
+
+ @media(max-width: 373px){
+  .brands-name{
+    font-size: 11px;
+    top: 24%;
+  }
+}
+
+
+
+ @media(max-width: 373px){
+  .brands-names{
+    font-size: 11px;
+    top: 30%;
+  }
+  .why{
+    font-size: 10px;
+    top: 42%;
+  }
+  .img123{
+    height: 480px;
+    width: 361px;
+    padding: 0 0 52px;
+    margin: 0 auto 30px;
+  }
+  .big-text{
+    text-align: center;
+    font-size: 34px;
+  }
+}
+

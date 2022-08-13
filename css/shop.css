@@ -1,0 +1,117 @@
+/* TABLE OF CONTENTS */
+/* ------------------
+1. General
+2. Navbar
+3. Banner
+4. Credo
+5. Instagram feed
+6. Question
+6. Footer
+--------------------- */
+
+/* 1 General */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+* {
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root {
+    /* Background Color */
+    --bg-red: #d3282e;
+    --bg-white: #fff;
+    --bg-light-white: #f6f7f8;
+    --bg-yellow: #fdd800;
+    --bg-green: #009900;
+
+    /* Text Color */
+    --text-black: #1f1f1f;
+    --text-white: #fff;
+    --text-red: #d3282e;
+    --text-green: #009900;
+    --text-yellow: #fdd800;
+
+    /* Fonts */
+    --primary-font: 'Great Vibes', cursive;
+    --secondary-font: 'Poppins', sans-serif;
+}
+body {
+    font-family: var(--secondary-font);
+    background-color: var(--bg-white);
+}
+
+.text-red{
+    color:var(--text-red);
+}
+.bg-red{
+    background-color:var(--bg-red) !important;
+}
+.bg-light-white{
+    background-color:var(--bg-light-white) !important;
+}
+.bg-green{
+    background-color:var(--bg-green) !important;
+}
+
+
+/*Navbar*/
+
+
+.navbar{
+   background-color: #4915c57a;
+   height: 70px;
+}
+
+.header .navbar-brand img{
+    max-width: 100px;
+    height: auto;
+}
+
+.header .nav-item{
+    margin: 0 10px;
+
+}
+.header .nav-item .nav-link{
+    font-size:15px;
+    font-weight: 500;
+    color:var(--text-blue);
+    line-height: 1;
+    letter-spacing: 1px;
+}
+.header .navbar-toggler-icon{
+    color:var(--text-yellow);
+}
+
+.why{
+    letter-spacing: 2px;
+    top: 250px;
+    left: 15%;
+    font-size: 25px;
+    position: absolute;
+    color: aquamarine;
+}
+.h1{
+    font-size: 3rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.brands-name{
+    letter-spacing: 4px;
+    top: 250px;
+    left: 10%;
+    font-size: 50px;
+    position: absolute;
+    color: orangered;
+}
+
+.big-text{
+    font-size: 50px;
+    margin: 20px 0;
+    color: darkorange;
+}
+
+
